@@ -1,0 +1,195 @@
+.dog_1 {
+    background-image: url("images/dog_1_1.png");
+    background-size: cover;
+    /* background: blue; */
+}
+
+.dog_1.smile {
+    background-image: url("images/dog_1_2.png");
+}
+
+.dog_1.smile.best_smile {
+    background-image: url("images/dog_1_3.png");
+}
+
+.dog_2 {
+    background-image: url("images/dog_2_1.png");
+    background-size: cover;
+    /* background: blue; */
+}
+
+.dog_2.smile {
+    background-image: url("images/dog_2_2.png");
+}
+
+.dog_2.smile.best_smile {
+    background-image: url("images/dog_2_3.png");
+}
+
+.dog_3 {
+    background-image: url("images/dog_3_1.png");
+    background-size: cover;
+}
+
+.dog_3.smile {
+    background-image: url("images/dog_3_2.png");
+}
+
+.dog_3.smile.best_smile {
+    background-image: url("images/dog_3_3.png");
+}
+
+.cat_1 {
+    background-image: url("images/cat_1_1.png");
+    background-size: cover;
+    /* background: blue; */
+}
+
+.cat_1.smile {
+    background-image: url("images/cat_1_2.png");
+    background-size: cover;
+}
+
+
+.cat.smile.best_smile {
+    background-image: url("images/cat_1_3.png");
+}
+
+.cat_2 {
+    background-image: url("images/cat_2_1.png");
+    background-size: cover;
+    /* background: blue; */
+}
+
+.cat_2.smile {
+    background-image: url("images/cat_2_2.png");
+    background-size: cover;
+}
+
+
+.cat_2.smile.best_smile {
+    background-image: url("images/cat_2_3.png");
+}
+
+.cat_3 {
+    background-image: url("images/cat_3_1.png");
+    background-size: cover;
+}
+
+.cat_3.smile {
+    background-image: url("images/cat_3_2.png");
+    background-size: cover;
+}
+
+
+
+.cat_3.smile.best_smile {
+    background-image: url("images/cat_3_3.png");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 形式のスタイル　（js関係なし） */
+.question_1 {
+    background: lightgoldenrodyellow;
+}
+
+.question_2 {
+    background: rgb(233, 255, 251);
+}
+
+.answer_1 {
+    background: rgb(255, 255, 233);
+}
+
+.answer_2 {
+    background: rgb(246, 255, 253);
+}
+
+.answer_1>label,
+.answer_2>label {
+    /* background: lightblue; */
+    margin-bottom: 20px;
+    margin-right: 20px;
+
+}
+
+
+
+
+
+.wrapper_question {
+    text-align: center;
+    vertical-align: top;
+    width: 1040px;
+    height: auto;
+    /* font-size: 24px; */
+}
+
+label,
+span {
+    display: inline-block;
+}
+
+
+[class*=question],
+[class*=answer] {
+    margin: auto;
+    width: 800px;
+    text-align: left;
+}
+
+[class*=answer] {
+    margin-bottom: 10px;
+}
+
+.question_1>label,
+.question_2>label {
+    /* background: red; */
+    /* font-size: 20px; */
+    margin-bottom: 20px;
+    margin-right: 95px;
+}
+
+.img_area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 800px;
+}
+
+.explanation_area {
+    display: block;
+    text-align: left;
+    margin: auto;
+    width: 800px;
+    margin-top: 50px;
+    background: rgba(211, 211, 211, 0.156);
+    /* border: 1px solid rgba(51, 51, 51, 0.457); */
+}
+
+.cat,
+.dog {
+    width: 250px;
+    height: 175px;
+}

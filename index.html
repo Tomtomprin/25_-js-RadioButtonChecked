@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <div class="wrapper_question">
+        <p class="question_1">
+            <label>質問1</label>
+            <span>犬派？猫派？</span>
+        </p>
+        <p class="answer_1">
+            <label>回答<br>選んでください </label>
+            <span>
+                <input type="radio" name="form_reply_method" id="form-reply_method_1">
+
+                <label for="form-reply_method_1">犬派</label>
+                <br>
+                <input type="radio" name="form_reply_method" id="form-reply_method_2">
+                <label class="" for="form-reply_method_2">猫派</label>
+            </span>
+        </p>
+        <p class="question_2">
+            <label>質問2</label>
+            <span>好きなタイプは？</span>
+        </p>
+        <p class="answer_2">
+            <label>回答<br>選んでください<br><br></label>
+            <span>
+                <input type="radio" name="form_reply_method2" id="form-reply_method_3">
+                <label class="" for="form-reply_method_3">癒し</label>
+                <br>
+                <input type="radio" name="form_reply_method2" id="form-reply_method_4">
+                <label class="" for="form-reply_method_4">ブサカワ</label>
+                <br>
+                <input type="radio" name="form_reply_method2" id="form-reply_method_5">
+                <label class="" for="form-reply_method_5">スマート</label>
+            </span>
+        </p>
+    </div>
+
+
+    <div class="img_area">
+        <div class="dog dog_1 cute"> </div>
+        <div class="dog dog_2 funny"> </div>
+        <div class="dog dog_3 smart"> </div>
+        <div class="cat cat_1 cute"> </div>
+        <div class="cat cat_2 funny"> </div>
+        <div class="cat cat_3 smart"> </div>
+
+    </div>
+    <div class="explanation_area">
+        ポイント：jsで「該当箇所のRadioButtonにチェックが入っていたら、●●する」という記述をしている
+
+    </div>
+
+    <div class="explanation_area">
+        使用したjs<br>
+        addEventListner('click')<br>
+        getElementByID<br>
+        querySelectorAll<br>
+
+        if~文<br>
+        for~of文<br>
+        classList<br>
+        など
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+
+
+
+
+</html>
